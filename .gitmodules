@@ -1,0 +1,36 @@
+[submodule "hypr"]
+	path = hypr
+	url = git@github.com:larkin1/config.hypr
+	branch = main
+[submodule "starship"]
+	path = starship
+	url = git@github.com:larkin1/config.starship
+	branch = main
+[submodule "waybar"]
+	path = waybar
+	url = git@github.com:larkin1/config.waybar
+	branch = main
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:larkin1/config.nvim
+	branch = main
+[submodule "fuzzel"]
+	path = fuzzel
+	url = git@github.com:larkin1/config.fuzzel
+	branch = main
+[submodule "ghostty"]
+	path = ghostty
+	url = git@github.com:larkin1/config.ghostty
+	branch = main
+[submodule "dunst"]
+	path = dunst
+	url = git@github.com:larkin1/config.dunst
+	branch = main
+[submodule "yazi"]
+	path = yazi
+	url = git@github.com:larkin1/config.yazi
+	branch = main
+[submodule "cava"]
+	path = cava
+	url = git@github.com:larkin1/config.cava
+	branch = main
