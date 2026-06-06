@@ -10,6 +10,12 @@ if ! git -C "$SCRIPT_DIR" submodule update --init --remote; then
   echo "Warning: failed to update submodules, continuing..." >&2
 fi
 
+echo "Switching to main branch in modules..."
+
+if ! git -C "$SCRIPT_DIR" submodule foreach git switch main; then
+  echo "Warning: failed to update submodules, continuing..." >&2
+fi
+
 echo "Finished updating submodules!"
 
 echo "Checking dependencies..."
